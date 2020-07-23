@@ -1,0 +1,27 @@
+{
+	"name": "crud-rest-api-using-node-express-mongodb",
+	"version": "1.0.0",
+	"description": "## Using POSTMAN you can test your REST API. [Click here...](https://www.postman.com/)",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon app"
+	}, 
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nazhimkalam/CRUD-REST-API-using-Node-Express-MongoDB.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nazhimkalam/CRUD-REST-API-using-Node-Express-MongoDB/issues"
+	},
+	"homepage": "https://github.com/nazhimkalam/CRUD-REST-API-using-Node-Express-MongoDB#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongodb": "^3.5.9",
+		"mongoose": "^5.9.25"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
