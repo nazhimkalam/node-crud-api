@@ -32,6 +32,9 @@
     mongod
 
 ### MVC Architecture
+
 **M - Model - Schema**
+
 **V - View - UI**
+
 **C - Controller - Router**
