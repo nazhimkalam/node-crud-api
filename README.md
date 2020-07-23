@@ -33,8 +33,8 @@
 
 ### MVC Architecture
 
-**M - Model - Schema**
+    M - Model - Schema
 
-**V - View - UI**
+    V - View - UI
 
-**C - Controller - Router**
+    C - Controller - Router
