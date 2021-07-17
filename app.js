@@ -2,8 +2,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const url = 'mongodb://localhost/Aliens';
 const app = express();
-
+const bodyParser    = require('body-parser')
 const alienRouter = require('./routes/aliens');
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use('/aliens', alienRouter); // we are saying to access the alienRouter when the URL contains '/aliens'
 app.use(express.json); // json data will be send as the body using postman
 
